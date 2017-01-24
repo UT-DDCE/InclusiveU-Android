@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ConnorWhite.inclusiveu.Partners"
+    android:background="@color/colorPrimary">
+
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/tool_bar"
+        ></include>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/partners"
+        android:id="@+id/partners_title"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#fff"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:layout_alignRight="@+id/home_button"
+        android:layout_alignEnd="@+id/home_button"
+        android:paddingBottom="0dp"
+        android:layout_above="@+id/partners_scroll_view"
+        android:elevation="5dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/home_button"
+        android:src="@drawable/home"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:clickable="false"
+        android:contentDescription="@string/home_alt"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:background="@color/clear"
+        android:layout_alignParentTop="true"
+        android:cropToPadding="false"
+        android:scaleType="fitEnd"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@+id/partners_scroll_view"
+        android:onClick="launchHome"
+        android:focusable="false"
+        android:elevation="5dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/partners_scroll_view"
+        android:layout_below="@+id/tool_bar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/gsc_button"
+                android:src="@drawable/gsc"
+                android:cropToPadding="false"
+                android:background="#00bf5700"
+                android:contentDescription="@string/gender_and_sexuality_center"
+                android:adjustViewBounds="true"
+                android:focusable="false"
+                android:onClick="goToGSC"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ddce_button"
+                android:src="@drawable/ddce"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/division_of_diversity_and_community_engagement"
+                android:onClick="goToDDCE"
+                android:layout_below="@+id/gsc_button"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/libraries_button"
+                android:src="@drawable/libraries"
+                android:adjustViewBounds="true"
+                android:paddingLeft="75dp"
+                android:paddingRight="75dp"
+                android:paddingTop="25dp"
+                android:paddingBottom="25dp"
+                android:contentDescription="@string/ut_libraries"
+                android:onClick="goToLib"
+                android:layout_below="@+id/ddce_button"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

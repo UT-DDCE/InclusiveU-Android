@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Inclusive U</string>
+    <string name="gir_map">Gender Inclusive Restroom Map</string>
+    <string name="gir_title">Gender Inclusive Restrooms</string>
+    <string name="libraries_map">UT Libraries Map</string>
+    <string name="libraries_title">UT Libraries</string>
+    <string name="library_specialists">Library Specialists</string>
+    <string name="partners">Partners</string>
+    <string name="about">About</string>
+    <string name="development">Development</string>
+    <string name="igwy_alt">#IllGoWithYou Need a buddy in a gendered space? We will go with you.</string>
+    <string name="developer_connor_white">Developer: Connor White</string>
+    <string name="version_0_9_1">Version 1.0.3</string>
+    <string name="division_of_diversity_and_community_engagement">Division of Diversity and Community Engagement</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="gender_and_sexuality_center">Gender and Sexuality Center</string>
+    <string name="ut_libraries">UT Libraries</string>
+    <string name="home_alt">Home</string>
+    <string name="about_text">This app was designed to help people locate services and places that make our campus more inclusive. Right now we are focusing on gender-inclusive restrooms, but keep on the lookout for other updates, as well.\n\nThe app includes a map of gender-inclusive restrooms, which is helpful for many populations on campus such as parents with small children, people whose personal care attendants are different genders from them, and transgender or non-binary people looking for a safe place to use the restroom.\n\nThe app working group, started in the UT Libraries, includes representatives from the Division of Diversity and Community Engagement (DDCE), the Gender and Sexuality Center (GSC), and Services for Students with Disabilities (SSD).\n\nBecause campus changes constantly, we rely on your input to keep the data on this app accurate. If you discover a single-stall, locking restroom that is not included on the app, please let us know. If you find that a restroom listed on the app is no longer there, or isn\'t accessible, let us know! If you have ideas for other things that should be listed on this app, let us know! In fact, feel free to send any feedback you have about the app our way at gsc@austin.utexas.edu.</string>
+    <string name="credit">The Inclusive U app was developed by Connor White, modeled after the iOS app of the same name developed by Jeremy Thompson.</string>
+    <string name="feedback">For direct feedback on this app or its contents feel free to contact us at GSC@austin.utexas.edu</string>
+    <string name="improve">Let us know how we can improve this app!</string>
+    <string name="feedback_button">Feedback Form</string>
+    <string name="title_activity_agrmap">Map</string>
+    <string name="title_activity_lib_map">Map</string>
+    <string name="gender_inclusive_restroom_map">Gender Inclusive Restroom Map</string>
+</resources>
